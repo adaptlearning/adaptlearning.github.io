@@ -1959,6 +1959,10 @@ html.adapt-scrolling #wrapper {
   padding-right: 1px;
   padding-left: 1px;
 }
+.media-component .audio-poster {
+  display: block;
+  margin: 0 auto;
+}
 .media-component .external-source .mejs-container {
   position: relative;
   padding-top: 35px;
