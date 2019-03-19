@@ -29,20 +29,6 @@
         "_requireContentCompleted": false,
         "_requireAssessmentCompleted": true
     },
-    "_spoor": {
-        "_isEnabled": true,
-        "_tracking": {
-            "_shouldSubmitScore": true,
-            "_shouldStoreResponses": false,
-            "_shouldRecordInteractions": true
-        },
-        "_reporting": {
-            "_comment": "Your options here are 'completed', 'passed', 'failed', and 'incomplete'",
-            "_onTrackingCriteriaMet": "completed",
-            "_onAssessmentFailure": "incomplete",
-            "_resetStatusOnLanguageChange": false
-        }
-    },
     "_disableAnimationFor": [],
     "_scrollingContainer": {
         "_isEnabled": false,
