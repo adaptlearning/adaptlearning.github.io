@@ -11,8 +11,8 @@
 @import 'src\components\adapt-contrib-gmcq\less\gmcq.less';
 @import 'src\components\adapt-contrib-graphic\less\graphic.less';
 @import 'src\components\adapt-contrib-hotgraphic\less\hotgraphic.less';
+@import 'src\components\adapt-contrib-matching\less\dropdown.less';
 @import 'src\components\adapt-contrib-matching\less\matching.less';
-@import 'src\components\adapt-contrib-matching\less\select2.less';
 @import 'src\components\adapt-contrib-mcq\less\mcq.less';
 @import 'src\components\adapt-contrib-media\less\media.less';
 @import 'src\components\adapt-contrib-media\less\mep.less';
@@ -45,10 +45,6 @@
 @import 'src\theme\adapt-contrib-vanilla\less\core\transitions.less';
 @import 'src\theme\adapt-contrib-vanilla\less\core\wrapper.less';
 @import 'src\theme\adapt-contrib-vanilla\less\custom\theme-extras.less';
-@import 'src\theme\adapt-contrib-vanilla\less\variables\colors.less';
-@import 'src\theme\adapt-contrib-vanilla\less\variables\fonts.less';
-@import 'src\theme\adapt-contrib-vanilla\less\variables\generic.less';
-@import 'src\theme\adapt-contrib-vanilla\less\variables\paddings.less';
 @import 'src\theme\adapt-contrib-vanilla\less\plugins\adapt-contrib-accordion\accordion.less';
 @import 'src\theme\adapt-contrib-vanilla\less\plugins\adapt-contrib-assessmentResults\assessmentResults.less';
 @import 'src\theme\adapt-contrib-vanilla\less\plugins\adapt-contrib-boxMenu\boxmenu.less';
@@ -63,3 +59,7 @@
 @import 'src\theme\adapt-contrib-vanilla\less\plugins\adapt-contrib-slider\slider.less';
 @import 'src\theme\adapt-contrib-vanilla\less\plugins\adapt-contrib-textinput\textinput.less';
 @import 'src\theme\adapt-contrib-vanilla\less\plugins\adapt-contrib-trickle\trickle.less';
+@import 'src\theme\adapt-contrib-vanilla\less\variables\colors.less';
+@import 'src\theme\adapt-contrib-vanilla\less\variables\fonts.less';
+@import 'src\theme\adapt-contrib-vanilla\less\variables\generic.less';
+@import 'src\theme\adapt-contrib-vanilla\less\variables\paddings.less';

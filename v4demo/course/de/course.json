@@ -102,10 +102,10 @@
     "_type": "course",
     "_classes": "",
     "_htmlClassName": "",
-    "title": "Adapt v4",
-    "displayTitle": "Adapt Version 4",
+    "title": "Adapt v4 (German)",
+    "displayTitle": "Adapt Version 4 - German version",
     "description": "A sample course demonstrating the capabilities of the Adapt Framework",
-    "body": "Welcome to the demonstration build for version 4 of the Adapt framework.<br><br>The focus of this release has been on accessibility, which has been updated to provide a greatly improved experience for users of assistive technology - most noticeably by removing the need to have an 'accessibility mode'.<br>For a complete list of changes, see <a href='https://github.com/adaptlearning/adapt_framework/milestone/17?closed=1' target='_blank'>the Accessibility v4 milestone</a>.",
+    "body": "Stellen Sie sich bitte vor, dass der gesamte Text dieses Kurses ins Deutsche übersetzt wurde",
     "_buttons": {
         "_submit": {
             "buttonText": "Submit",
