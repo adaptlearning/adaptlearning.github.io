@@ -1523,14 +1523,14 @@ this["Handlebars"]["templates"]["languagePickerDrawerView"] = Handlebars.templat
 },"6":function(container,depth0,helpers,partials,data) {
     return "disabled";
 },"compiler":[8,">= 4.3.0"],"main":function(container,depth0,helpers,partials,data) {
-    var stack1, helper, alias1=container.propertyIsEnumerable, alias2=depth0 != null ? depth0 : (container.nullContext || {}), alias3=container.hooks.helperMissing;
+    var stack1, helper, alias1=container.propertyIsEnumerable, alias2=depth0 != null ? depth0 : (container.nullContext || {}), alias3=container.hooks.helperMissing, alias4=container.escapeExpression;
 
-  return container.escapeExpression(((helper = (helper = helpers.import_globals || (depth0 != null ? depth0.import_globals : depth0)) != null ? helper : alias3),(typeof helper === "function" ? helper.call(alias2,{"name":"import_globals","hash":{},"data":data,"loc":{"start":{"line":2,"column":0},"end":{"line":2,"column":18}}}) : helper)))
+  return alias4(((helper = (helper = helpers.import_globals || (depth0 != null ? depth0.import_globals : depth0)) != null ? helper : alias3),(typeof helper === "function" ? helper.call(alias2,{"name":"import_globals","hash":{},"data":data,"loc":{"start":{"line":2,"column":0},"end":{"line":2,"column":18}}}) : helper)))
     + "\n<div class=\"languagepicker\">\n  "
-    + ((stack1 = (helpers.a11y_aria_label||(depth0 && depth0.a11y_aria_label)||alias3).call(alias2,((stack1 = ((stack1 = ((stack1 = (depth0 != null ? depth0._globals : depth0)) != null ? stack1._extensions : stack1)) != null ? stack1._languagePicker : stack1)) != null ? stack1.languageSelector : stack1),{"name":"a11y_aria_label","hash":{},"data":data,"loc":{"start":{"line":4,"column":2},"end":{"line":4,"column":77}}})) != null ? stack1 : "")
+    + alias4((helpers.a11y_aria_label||(depth0 && depth0.a11y_aria_label)||alias3).call(alias2,((stack1 = ((stack1 = ((stack1 = (depth0 != null ? depth0._globals : depth0)) != null ? stack1._extensions : stack1)) != null ? stack1._languagePicker : stack1)) != null ? stack1.languageSelector : stack1),{"name":"a11y_aria_label","hash":{},"data":data,"loc":{"start":{"line":4,"column":2},"end":{"line":4,"column":75}}}))
     + "\n  <div class=\"languagepicker-inner\" role=\"list\">\n"
     + ((stack1 = helpers.each.call(alias2,(depth0 != null ? depth0._languages : depth0),{"name":"each","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":6,"column":5},"end":{"line":10,"column":14}}})) != null ? stack1 : "")
-    + "  </div>\n</div>\n";
+    + "  </div>\n</div>";
 },"useData":true});
 
 this["Handlebars"]["templates"]["languagePickerNavigation"] = Handlebars.template({"compiler":[8,">= 4.3.0"],"main":function(container,depth0,helpers,partials,data) {
