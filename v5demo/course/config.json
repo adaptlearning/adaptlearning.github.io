@@ -1,0 +1,89 @@
+{
+    "_defaultLanguage": "en",
+    "_defaultDirection": "ltr",
+    "_questionWeight": 1,
+    "_logging": {
+        "_isEnabled": true,
+        "_level": "debug",
+        "_console": true
+    },
+    "_accessibility": {
+        "_isEnabled": true,
+        "_isSkipNavigationEnabled": true,
+        "_ariaLevels": {
+            "_menu": 1,
+            "_menuItem": 2,
+            "_page": 1,
+            "_article": 2,
+            "_block": 3,
+            "_component": 4,
+            "_componentItem": 5,
+            "_notify": 1
+        },
+        "_options": {
+            "_isFocusOutlineKeyboardOnlyEnabled": true,
+            "_isFocusOutlineDisabled": false,
+            "_isFocusAssignmentEnabled": true,
+            "_isFocusOnClickEnabled": true,
+            "_isFocusNextOnDisabled": true,
+            "_isScrollDisableEnabled": true,
+            "_isAriaHiddenManagementEnabled": true,
+            "_isPopupManagementEnabled": true,
+            "_isPopupWrapFocusEnabled": true,
+            "_isPopupAriaHiddenManagementEnabled": true,
+            "_isPopupTabIndexManagementEnabled": true,
+            "_warn": true,
+            "_warnFirstOnly": true
+        }
+    },
+    "_drawer": {
+        "_showEasing": "easeOutQuart",
+        "_hideEasing": "easeInQuart",
+        "_duration": 400
+    },
+    "_completionCriteria": {
+        "_requireContentCompleted": false,
+        "_requireAssessmentCompleted": true
+    },
+    "_languagePicker": {
+        "_isEnabled": true,
+        "title": "Language selection",
+        "displayTitle": "Please select a language",
+        "body": "This course is available in the following languages:",
+        "_showOnCourseLoad": false,
+        "_comment": "default class names are: icon-globe, icon-language-1, icon-language-2",
+        "_languagePickerIconClass": "icon-language-2",
+        "_restoreStateOnLanguageChange": false,
+        "_languages": [
+            {
+                "_language": "en",
+                "_direction": "ltr",
+                "displayName": "English",
+                "warningTitle": "Change language?",
+                "warningMessage": "Changing the language will reset course progress.<br><br>Would you like to proceed?",
+                "_buttons": {
+                    "yes": "Yes",
+                    "no": "No"
+                }
+            },
+            {
+                "_language": "de",
+                "_direction": "ltr",
+                "displayName": "Deutsch",
+                "warningTitle": "Sprache ändern?",
+                "warningMessage": "Ändern der Sprache wird den Fortschritt des Kurses zurücksetzen.<br><br>Möchte Sie fortfahren?",
+                "_buttons": {
+                    "yes": "Ja",
+                    "no": "Nein"
+                }
+            }
+        ]
+    },
+    "_disableAnimationFor": [],
+    "_disableAnimation": false,
+    "_scrollingContainer": {
+        "_isEnabled": false,
+        "_limitToSelector": ""
+    },
+    "build": {}
+}
