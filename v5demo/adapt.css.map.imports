@@ -18,6 +18,7 @@
 @import 'src\core\less\core\loading.less';
 @import 'src\core\less\core\nav.less';
 @import 'src\core\less\core\notify.less';
+@import 'src\core\less\core\notifyPush.less';
 @import 'src\core\less\core\page.less';
 @import 'src\core\less\core\scrolling.less';
 @import 'src\core\less\core\shadow.less';
@@ -60,6 +61,7 @@
 @import 'src\theme\adapt-contrib-vanilla\less\core\loading.less';
 @import 'src\theme\adapt-contrib-vanilla\less\core\nav.less';
 @import 'src\theme\adapt-contrib-vanilla\less\core\notify.less';
+@import 'src\theme\adapt-contrib-vanilla\less\core\notifyPush.less';
 @import 'src\theme\adapt-contrib-vanilla\less\core\page.less';
 @import 'src\theme\adapt-contrib-vanilla\less\core\shadow.less';
 @import 'src\theme\adapt-contrib-vanilla\less\plugins\adapt-contrib-accordion\accordion.less';
