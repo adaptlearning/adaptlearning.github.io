@@ -11,7 +11,8 @@
         "body": "Adapt allows you to combine text and graphic components on the scrolling page to create rich and varied learning experiences. In addition, a wide range of interactive components are also available to help encourage deeper engagement with the material.<br><br><b>These presentation components can be structured</b> in any way to help you create learning experiences that meet the needs of your learners.<br><br>In addition, if your course is being launched from an <abbr title='Learning Management System'>LMS</abbr> or <abbr title='Learning Record Store'>LRS</abbr>, you can personalise the course content by having the learner's name dynamically displayed in the body, instruction or feedback text.",
         "instruction": "{{_globals._learnerInfo.firstname}}, scroll down to see what presentation components are available as part of the core bundle.",
         "_pageLevelProgress": {
-            "_isEnabled": true
+            "_isEnabled": true,
+            "_isCompletionIndicatorEnabled": false
         }
     },
     {
@@ -29,7 +30,7 @@
         "_graphic": {
             "large": "course/en/images/single-width.png",
             "small": "course/en/images/full-width.png",
-            "alt": "Placeholder graphic.",
+            "alt": "",
             "attribution": ""
         }
     },
@@ -45,7 +46,8 @@
         "body": "The simple text component can often be the best choice for imparting information, particularly when used in conjunction with complementary graphics. In this example we’ve used the blank component to the right to create a window through to the block background.<br><br>Remember, content doesn’t always warrant an interaction so less can often be really be more. Instead, look to intersperse more interactive components with text and graphics where they add the maximum value.<br><br>Component can either be single or spanned.",
         "instruction": "",
         "_pageLevelProgress": {
-            "_isEnabled": true
+            "_isEnabled": true,
+            "_isCompletionIndicatorEnabled": false
         }
     },
     {
@@ -71,11 +73,12 @@
         "instruction": "",
         "_graphic": {
             "src": "course/en/images/full-width.png",
-            "alt": "Placeholder graphic.",
+            "alt": "",
             "attribution": ""
         },
         "_pageLevelProgress": {
-            "_isEnabled": true
+            "_isEnabled": true,
+            "_isCompletionIndicatorEnabled": false
         }
     },
     {
@@ -99,7 +102,7 @@
                 "body": "Narratives are particularly good for showing dialogue between two or more characters, with each step of the conversation being accompanied by an image. This photo story approach can be used to provide context for the learning to follow, to illustrate real-world application of the learning or to show the impact on people when the learning hasn’t been applied correctly.",
                 "_graphic": {
                     "src": "course/en/images/narrative.png",
-                    "alt": "Placeholder graphic."
+                    "alt": ""
                 },
                 "strapline": "Narrative item 1"
             },
@@ -108,7 +111,7 @@
                 "body": "Narratives can also be used to present case studies, where the different displays are used to set the scene, show the key events and then the outcome.",
                 "_graphic": {
                     "src": "course/en/images/narrative.png",
-                    "alt": "Placeholder graphic."
+                    "alt": ""
                 },
                 "strapline": "Narrative item 2"
             },
@@ -117,7 +120,7 @@
                 "body": "The narrative can also be used when you want to illustrate the constituent steps that make up a larger process.",
                 "_graphic": {
                     "src": "course/en/images/narrative.png",
-                    "alt": "Placeholder graphic."
+                    "alt": ""
                 },
                 "strapline": "Narrative item 3"
             }
@@ -146,7 +149,7 @@
         "mobileInstruction": "",
         "_graphic": {
             "src": "course/en/images/hotgraphic.png",
-            "alt": "Placeholder graphic."
+            "alt": ""
         },
         "_items": [
             {
@@ -154,7 +157,7 @@
                 "body": "This is display text 1 which we have associated with the tablet image on the desktop.",
                 "_graphic": {
                     "src": "course/en/images/single-width.png",
-                    "alt": "Placeholder graphic.",
+                    "alt": "",
                     "_classes": ""
                 },
                 "strapline": "Hot graphic item 1",
@@ -167,7 +170,7 @@
                 "body": "This is display text 2 which we have linked to the smartphone image.",
                 "_graphic": {
                     "src": "course/en/images/single-width.png",
-                    "alt": "Placeholder graphic.",
+                    "alt": "",
                     "_classes": ""
                 },
                 "strapline": "Hot graphic item 2",
@@ -180,7 +183,7 @@
                 "body": "This is display text 3 which we’ve located over the laptop so you would expect the content to be about PCs.",
                 "_graphic": {
                     "src": "course/en/images/single-width.png",
-                    "alt": "Placeholder graphic.",
+                    "alt": "",
                     "_classes": ""
                 },
                 "strapline": "Hot graphic item 3",
@@ -258,7 +261,7 @@
                 "_classes": "align-image-left",
                 "_graphic": {
                     "src": "course/en/images/single-width.png",
-                    "alt": "Placeholder graphic."
+                    "alt": ""
                 }
             },
             {
@@ -267,7 +270,7 @@
                 "_classes": "align-image-right",
                 "_graphic": {
                     "src": "course/en/images/single-width.png",
-                    "alt": "Placeholder graphic."
+                    "alt": ""
                 }
             },
             {
@@ -275,7 +278,7 @@
                 "body": "This is display text 3 and we’re now talking about using accordions to provide the learner with a summary.<br><br>Each accordion item corresponds to a key piece of learning presented on the page. When this item is selected a short summary of the learning point is provided.",
                 "_graphic": {
                     "src": "course/en/images/accordion-full.png",
-                    "alt": "Placeholder graphic."
+                    "alt": ""
                 }
             }
         ],
@@ -296,11 +299,11 @@
         "_canShowModelAnswer": true,
         "_shouldDisplayAttempts": false,
         "_isRandom": true,
-        "_selectable": 2,
+        "_selectable": 1,
         "title": "Multiple Choice Question",
         "displayTitle": "Multiple Choice Question",
         "body": "In what year was the first recorded instance of a large scale assessment that consists solely of multiple choice questions?",
-        "instruction": "Choose one or more options and select Submit.",
+        "instruction": "Choose one option and select Submit.",
         "_items": [
             {
                 "text": "1917",
@@ -345,7 +348,7 @@
         "instruction": "",
         "_graphic": {
             "src": "course/en/images/single-width.png",
-            "alt": "Placeholder graphic.",
+            "alt": "",
             "attribution": ""
         }
     },
@@ -374,7 +377,7 @@
                 "_graphic": {
                     "large": "course/en/images/gmcq.png",
                     "small": "course/en/images/gmcq.png",
-                    "alt": "Placeholder graphic."
+                    "alt": ""
                 }
             },
             {
@@ -383,7 +386,7 @@
                 "_graphic": {
                     "large": "course/en/images/gmcq.png",
                     "small": "course/en/images/gmcq.png",
-                    "alt": "Placeholder graphic."
+                    "alt": ""
                 }
             },
             {
@@ -392,7 +395,7 @@
                 "_graphic": {
                     "large": "course/en/images/gmcq.png",
                     "small": "course/en/images/gmcq.png",
-                    "alt": "Placeholder graphic."
+                    "alt": ""
                 }
             }
         ],
@@ -467,7 +470,7 @@
         "instruction": "",
         "_graphic": {
             "src": "course/en/images/single-width.png",
-            "alt": "Placeholder graphic.",
+            "alt": "",
             "attribution": ""
         }
     },
@@ -652,7 +655,8 @@
             }
         },
         "_pageLevelProgress": {
-            "_isEnabled": true
+            "_isEnabled": true,
+            "_isCompletionIndicatorEnabled": false
         }
     },
     {
@@ -669,7 +673,7 @@
         "instruction": "",
         "_graphic": {
             "src": "course/en/images/single-width.png",
-            "alt": "Placeholder graphic.",
+            "alt": "",
             "attribution": ""
         }
     },
@@ -723,7 +727,8 @@
             }
         },
         "_pageLevelProgress": {
-            "_isEnabled": true
+            "_isEnabled": true,
+            "_isCompletionIndicatorEnabled": false
         }
     },
     {
@@ -740,7 +745,7 @@
         "instruction": "",
         "_graphic": {
             "src": "course/en/images/single-width.png",
-            "alt": "Placeholder graphic.",
+            "alt": "",
             "attribution": ""
         }
     },
@@ -791,7 +796,8 @@
             }
         },
         "_pageLevelProgress": {
-            "_isEnabled": true
+            "_isEnabled": true,
+            "_isCompletionIndicatorEnabled": false
         }
     },
     {
@@ -808,7 +814,7 @@
         "instruction": "",
         "_graphic": {
             "src": "course/en/images/single-width.png",
-            "alt": "Placeholder graphic.",
+            "alt": "",
             "attribution": ""
         }
     },
@@ -858,7 +864,8 @@
             }
         },
         "_pageLevelProgress": {
-            "_isEnabled": true
+            "_isEnabled": true,
+            "_isCompletionIndicatorEnabled": false
         }
     },
     {
@@ -875,7 +882,7 @@
         "instruction": "",
         "_graphic": {
             "src": "course/en/images/single-width.png",
-            "alt": "Placeholder graphic.",
+            "alt": "",
             "attribution": ""
         }
     },
@@ -922,7 +929,8 @@
             }
         },
         "_pageLevelProgress": {
-            "_isEnabled": true
+            "_isEnabled": true,
+            "_isCompletionIndicatorEnabled": false
         }
     },
     {
@@ -939,7 +947,7 @@
         "instruction": "",
         "_graphic": {
             "src": "course/en/images/single-width.png",
-            "alt": "Placeholder graphic.",
+            "alt": "",
             "attribution": ""
         }
     },
@@ -989,7 +997,8 @@
             }
         },
         "_pageLevelProgress": {
-            "_isEnabled": true
+            "_isEnabled": true,
+            "_isCompletionIndicatorEnabled": false
         }
     },
     {
@@ -1006,7 +1015,7 @@
         "instruction": "",
         "_graphic": {
             "src": "course/en/images/single-width.png",
-            "alt": "Placeholder graphic.",
+            "alt": "",
             "attribution": ""
         }
     },
@@ -1023,7 +1032,8 @@
         "_canReset": true,
         "_isResetOnRevisit": "hard",
         "_pageLevelProgress": {
-            "_isEnabled": true
+            "_isEnabled": true,
+            "_isCompletionIndicatorEnabled": false
         }
     },
     {
@@ -1069,7 +1079,8 @@
             }
         ],
         "_pageLevelProgress": {
-            "_isEnabled": true
+            "_isEnabled": true,
+            "_isCompletionIndicatorEnabled": false
         }
     }
 ]

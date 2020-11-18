@@ -1,5 +1,70 @@
 {
+  "_id": "course",
+  "_type": "course",
+  "_classes": "",
+  "_htmlClasses": "",
+  "title": "Adapt v5",
+  "displayTitle": "Adapt Version 5",
+  "description": "A sample course demonstrating the capabilities of the Adapt Framework",
+  "body": "Stellen Sie sich bitte vor, dass der gesamte Text dieses Kurses ins Deutsche übersetzt wurde.",
+  "instruction": "",
+  "_buttons": {
+    "_submit": {
+      "buttonText": "Submit",
+      "ariaLabel": "Submit"
+    },
+    "_reset": {
+      "buttonText": "Reset",
+      "ariaLabel": "Reset"
+    },
+    "_showCorrectAnswer": {
+      "buttonText": "Correct answer",
+      "ariaLabel": "Show correct answer"
+    },
+    "_hideCorrectAnswer": {
+      "buttonText": "My answer",
+      "ariaLabel": "Show my answer"
+    },
+    "_showFeedback": {
+      "buttonText": "Show feedback",
+      "ariaLabel": "Show feedback"
+    },
+    "remainingAttemptsText": "attempts remaining",
+    "remainingAttemptText": "final attempt",
+    "disabledAriaLabel": "This button is disabled at the moment"
+  },
   "_globals": {
+    "_learnerInfo": {
+      "id": "student.name@example.org",
+      "name": "Name, Student",
+      "firstname": "Student",
+      "lastname": "Name"
+    },
+    "_accessibility": {
+      "skipNavigationText": "Skip navigation",
+      "_ariaLabels": {
+        "answeredIncorrectly": "You answered incorrectly",
+        "answeredCorrectly": "You answered correctly",
+        "selectedAnswer": "selected",
+        "unselectedAnswer": "not selected",
+        "skipNavigation": "Skip Navigation",
+        "previous": "Back",
+        "navigationDrawer": "Open course resources.",
+        "close": "Close",
+        "closeDrawer": "Close drawer",
+        "closeResources": "Close resources",
+        "drawer": "Top of side drawer",
+        "closePopup": "Close popup",
+        "next": "Next",
+        "done": "Done",
+        "complete": "Completed",
+        "incomplete": "Incomplete",
+        "incorrect": "Incorrect",
+        "correct": "Correct",
+        "locked": "Locked",
+        "visited": "Visited"
+      }
+    },
     "_components": {
       "_accordion": {
         "ariaRegion": "List of expandable sections. Select each button to expand the content."
@@ -8,7 +73,7 @@
         "ariaRegion": "Assessment results."
       },
       "_gmcq": {
-        "ariaRegion": "Multiple choice question. Select your option and then submit."
+        "ariaRegion": "Multiple choice question"
       },
       "_graphic": {
         "ariaRegion": ""
@@ -21,14 +86,16 @@
         "ariaRegion": "Matching. Select from lists and then submit."
       },
       "_mcq": {
-        "ariaRegion": "Multiple choice question. Select your option and then submit."
+        "ariaRegion": "Multiple choice question"
       },
       "_media": {
         "ariaRegion": "Media player{{#any _transcript._inlineTranscript _transcript._externalTranscript}} and transcript{{/any}}.",
         "skipToTranscript": "Skip to transcript"
       },
       "_narrative": {
-        "ariaRegion": "Slide show. Select the next button to progress."
+        "ariaRegion": "Slide show. Select the next button to progress.",
+        "previous": "{{#if title}}Back to {{title}} (item {{itemNumber}} of {{totalItems}}){{else}}{{_globals._accessibility._ariaLabels.previous}}{{/if}}",
+        "next": "{{#if title}}Forward to {{title}} (item {{itemNumber}} of {{totalItems}}){{else}}{{_globals._accessibility._ariaLabels.next}}{{/if}}"
       },
       "_slider": {
         "ariaRegion": "Slider. Respond to the question by selecting a value on the scale and then submit.",
@@ -65,72 +132,7 @@
       "_boxMenu": {
         "durationLabel": "Duration:"
       }
-    },
-    "_learnerInfo": {
-      "id": "student.name@example.org",
-      "name": "Name, Student",
-      "firstname": "Student",
-      "lastname": "Name"
-    },
-    "_accessibility": {
-      "skipNavigationText": "Skip navigation",
-      "_ariaLabels": {
-        "answeredIncorrectly": "You answered incorrectly",
-        "answeredCorrectly": "You answered correctly",
-        "selectedAnswer": "selected",
-        "unselectedAnswer": "not selected",
-        "skipNavigation": "Skip Navigation",
-        "previous": "Back",
-        "navigationDrawer": "Open course resources.",
-        "close": "Close",
-        "closeDrawer": "Close drawer",
-        "closeResources": "Close resources",
-        "drawer": "Top of side drawer",
-        "closePopup": "Close popup",
-        "next": "Next",
-        "done": "Done",
-        "complete": "Completed",
-        "incomplete": "Incomplete",
-        "incorrect": "Incorrect",
-        "correct": "Correct",
-        "locked": "Locked",
-        "visited": "Visited"
-      }
     }
-  },
-  "_id": "course",
-  "_type": "course",
-  "_classes": "",
-  "_htmlClasses": "",
-  "title": "Adapt v5",
-  "displayTitle": "Adapt Version 5 - German version",
-  "description": "A sample course demonstrating the capabilities of the Adapt Framework",
-  "body": "Stellen Sie sich bitte vor, dass der gesamte Text dieses Kurses ins Deutsche übersetzt wurde.",
-  "instruction": "",
-  "_buttons": {
-    "_submit": {
-      "buttonText": "Submit",
-      "ariaLabel": "Submit"
-    },
-    "_reset": {
-      "buttonText": "Reset",
-      "ariaLabel": "Reset"
-    },
-    "_showCorrectAnswer": {
-      "buttonText": "Correct answer",
-      "ariaLabel": "Show correct answer"
-    },
-    "_hideCorrectAnswer": {
-      "buttonText": "My answer",
-      "ariaLabel": "Show my answer"
-    },
-    "_showFeedback": {
-      "buttonText": "Show feedback",
-      "ariaLabel": "Show feedback"
-    },
-    "remainingAttemptsText": "attempts remaining",
-    "remainingAttemptText": "final attempt",
-    "disabledAriaLabel": "This button is disabled at the moment"
   },
   "_latestTrackingId": 19,
   "_pageLevelProgress": {
@@ -181,6 +183,18 @@
         "_link": "https://gitter.im/adaptlearning/adapt_framework"
       }
     ]
+  },
+  "_start": {
+    "_isEnabled": false,
+    "_startIds": [
+      {
+        "_id": "co-05",
+        "_skipIfComplete": true,
+        "_className": ""
+      }
+    ],
+    "_force": false,
+    "_isMenuDisabled": false
   },
   "_assessment": {
     "_isPercentageBased": true,

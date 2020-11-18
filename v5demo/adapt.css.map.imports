@@ -15,6 +15,7 @@
 @import 'src\core\less\core\component.less';
 @import 'src\core\less\core\drawer.less';
 @import 'src\core\less\core\drawerItem.less';
+@import 'src\core\less\core\global.less';
 @import 'src\core\less\core\loading.less';
 @import 'src\core\less\core\nav.less';
 @import 'src\core\less\core\notify.less';
@@ -44,6 +45,7 @@
 @import 'src\extensions\adapt-contrib-trickle\less\trickle.less';
 @import 'src\extensions\adapt-contrib-trickle\less\trickle-button.less';
 @import 'src\menu\adapt-contrib-boxMenu\less\boxMenu.less';
+@import 'src\menu\adapt-contrib-boxMenu\less\boxMenuGroup.less';
 @import 'src\menu\adapt-contrib-boxMenu\less\boxMenuItem.less';
 @import 'src\theme\adapt-contrib-vanilla\less\_defaults\_animations.less';
 @import 'src\theme\adapt-contrib-vanilla\less\_defaults\_colors.less';
@@ -66,6 +68,7 @@
 @import 'src\theme\adapt-contrib-vanilla\less\core\shadow.less';
 @import 'src\theme\adapt-contrib-vanilla\less\plugins\adapt-contrib-accordion\accordion.less';
 @import 'src\theme\adapt-contrib-vanilla\less\plugins\adapt-contrib-boxmenu\boxMenu.less';
+@import 'src\theme\adapt-contrib-vanilla\less\plugins\adapt-contrib-boxmenu\boxMenuGroup.less';
 @import 'src\theme\adapt-contrib-vanilla\less\plugins\adapt-contrib-boxmenu\boxMenuItem.less';
 @import 'src\theme\adapt-contrib-vanilla\less\plugins\adapt-contrib-confidenceSlider\confidenceSlider.less';
 @import 'src\theme\adapt-contrib-vanilla\less\plugins\adapt-contrib-glossary\glossary.less';
@@ -79,6 +82,7 @@
 @import 'src\theme\adapt-contrib-vanilla\less\plugins\adapt-contrib-matching\matching.less';
 @import 'src\theme\adapt-contrib-vanilla\less\plugins\adapt-contrib-mcq\mcq.less';
 @import 'src\theme\adapt-contrib-vanilla\less\plugins\adapt-contrib-media\media.less';
+@import 'src\theme\adapt-contrib-vanilla\less\plugins\adapt-contrib-media\mep.less';
 @import 'src\theme\adapt-contrib-vanilla\less\plugins\adapt-contrib-narrative\narrative.less';
 @import 'src\theme\adapt-contrib-vanilla\less\plugins\adapt-contrib-pageLevelProgress\pageLevelProgressIndicator.less';
 @import 'src\theme\adapt-contrib-vanilla\less\plugins\adapt-contrib-resources\resources.less';

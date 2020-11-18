@@ -5,13 +5,15 @@
     "_logging": {
         "_isEnabled": true,
         "_level": "debug",
-        "_console": true
+        "_console": true,
+        "_warnFirstOnly": true
     },
     "_accessibility": {
         "_isEnabled": true,
         "_isSkipNavigationEnabled": true,
         "_ariaLevels": {
             "_menu": 1,
+            "_menuGroup": 2,
             "_menuItem": 2,
             "_page": 1,
             "_article": 2,
@@ -35,6 +37,9 @@
             "_warn": true,
             "_warnFirstOnly": true
         }
+    },
+    "_fixes": {
+        "_imgLazyLoad": true
     },
     "_drawer": {
         "_showEasing": "easeOutQuart",
@@ -85,5 +90,6 @@
         "_isEnabled": false,
         "_limitToSelector": ""
     },
-    "build": {}
+    "build": {
+    }
 }
