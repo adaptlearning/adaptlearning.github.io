@@ -841,7 +841,7 @@ nb {
 .icon-ellipsis-vertical:before {
   content: "\e98b";
 }
-.icon-exlcamation:before {
+.icon-exclamation:before {
   content: "\e98c";
 }
 .icon-expand_1:before {
@@ -1918,81 +1918,23 @@ html.adapt-scrolling #wrapper {
   width: 100% !important;
   height: 100% !important;
 }
-.media__widget.video-vimeo .mejs-controls {
-  display: none !important;
-  height: 0 !important;
-}
-.media__widget.video-vimeo .mejs-overlay-play {
-  display: none !important;
-}
-.media .external-source .mejs-container {
+.media__widget.external-source .mejs-container {
   position: relative;
   overflow: hidden;
 }
-.media .external-source .mejs-container iframe {
+.media__widget.external-source .mejs-container iframe {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
 }
-.media .external-source .mejs-overlay-button {
-  display: none;
+.media__widget.external-source .mejs-overlay-play {
+  display: none !important;
 }
-.media .mejs-container {
-  width: 100% !important;
-  background-color: transparent;
-}
-.media .mejs-container .mejs-controls .mejs-time {
-  padding-right: 0;
-  padding-left: 0;
-}
-.media .mejs-overlay:hover .mejs-overlay-button {
-  background-position: 0 0;
-}
-.no-touch .media .mejs-overlay:hover .mejs-overlay-button {
-  background-position: 0 -100px;
-}
-.media .mejs-overlay-button {
-  background-image: url(assets/bigplay.svg);
-}
-.media .no-svg .mejs-overlay-button {
-  background-image: url(assets/bigplay.png);
-}
-.media .mejs-overlay-loading,
-.media .mejs-container .mejs-controls,
-.media .mejs-controls .mejs-volume-button .mejs-volume-slider,
-.media .mejs-controls .mejs-captions-button .mejs-captions-selector,
-.media .mejs-captions-text,
-.media .mejs-controls .mejs-sourcechooser-button .mejs-sourcechooser-selector,
-.media .mejs-postroll-layer,
-.media .mejs-postroll-close,
-.media .mejs-controls .mejs-speed-button .mejs-speed-selector {
-  background-image: url(assets/background.png);
-}
-.media .mejs-overlay-loading span {
-  background-image: url(assets/loading.gif);
-}
-.media .mejs-controls .mejs-button.mejs-jump-forward-button {
-  background-image: url(assets/jumpforward.png);
-}
-.media .mejs-controls .mejs-button.mejs-skip-back-button {
-  background-image: url(assets/skipback.png);
-}
-.media .mejs-controls .mejs-button button {
-  background-image: url(assets/controls.svg);
-}
-.media .no-svg .mejs-controls .mejs-button button {
-  background-image: url(assets/controls.png);
-}
-.media .mejs-container-fullscreen .mejs-mediaelement,
-.media .mejs-container-fullscreen video {
-  width: 100% !important;
-  height: 100% !important;
-  background-color: black;
-}
-.media .mejs-offscreen {
-  -webkit-clip-path: polygon(0 0, 0 0, 0 0, 0 0);
+.media__widget.video-vimeo .mejs-controls {
+  display: none !important;
+  height: 0 !important;
 }
 .media.toggle-captions .mejs-captions-selector {
   display: none !important;
@@ -2910,6 +2852,61 @@ div.mejs-speed-button {
   color: #ffffff;
 }
 /* End: Skip Back */
+.mejs-container {
+  width: 100% !important;
+  background-color: transparent;
+}
+.mejs-container .mejs-controls .mejs-time {
+  padding-right: 0;
+  padding-left: 0;
+}
+.mejs-overlay:hover .mejs-overlay-button {
+  background-position: 0 0;
+}
+.no-touch  .mejs-overlay:hover .mejs-overlay-button {
+  background-position: 0 -100px;
+}
+.mejs-overlay-button {
+  background-image: url(assets/bigplay.svg);
+}
+.no-svg .mejs-overlay-button {
+  background-image: url(assets/bigplay.png);
+}
+.mejs-overlay-loading,
+.mejs-container .mejs-controls,
+.mejs-controls .mejs-volume-button .mejs-volume-slider,
+.mejs-controls .mejs-captions-button .mejs-captions-selector,
+.mejs-captions-text,
+.mejs-controls .mejs-sourcechooser-button .mejs-sourcechooser-selector,
+.mejs-postroll-layer,
+.mejs-postroll-close,
+.mejs-controls .mejs-speed-button .mejs-speed-selector {
+  background-image: url(assets/background.png);
+}
+.mejs-overlay-loading span {
+  background-image: url(assets/loading.gif);
+}
+.mejs-controls .mejs-button.mejs-jump-forward-button {
+  background-image: url(assets/jumpforward.png);
+}
+.mejs-controls .mejs-button.mejs-skip-back-button {
+  background-image: url(assets/skipback.png);
+}
+.mejs-controls .mejs-button button {
+  background-image: url(assets/controls.svg);
+}
+.no-svg .mejs-controls .mejs-button button {
+  background-image: url(assets/controls.png);
+}
+.mejs-container-fullscreen .mejs-mediaelement,
+.mejs-container-fullscreen video {
+  width: 100% !important;
+  height: 100% !important;
+  background-color: black;
+}
+.mejs-offscreen {
+  -webkit-clip-path: polygon(0 0, 0 0, 0 0, 0 0);
+}
 .narrative__content {
   display: none;
 }

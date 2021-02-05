@@ -34,6 +34,7 @@
 @import 'src\components\adapt-contrib-mcq\less\mcq.less';
 @import 'src\components\adapt-contrib-media\less\media.less';
 @import 'src\components\adapt-contrib-media\less\mep.less';
+@import 'src\components\adapt-contrib-media\less\mep-overrides.less';
 @import 'src\components\adapt-contrib-narrative\less\narrative.less';
 @import 'src\components\adapt-contrib-slider\less\rangeslider.less';
 @import 'src\components\adapt-contrib-slider\less\slider.less';
