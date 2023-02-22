@@ -1,0 +1,30 @@
+html {
+  font-family: Roboto;
+}
+
+.table {
+  display: table;
+}
+
+.row:nth-child(odd) {
+  background: lightgrey;
+}
+
+.row {
+  display: table-row;
+}
+
+.cell {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 8px;
+}
+
+.room__icon img {
+  height: 32px;
+  width: 32px;
+}
+
+.room__name {
+  width: 300px;
+}
